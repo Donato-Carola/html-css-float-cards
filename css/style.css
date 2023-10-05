@@ -9,6 +9,7 @@
     color: rgb(229, 49, 112);
     text-align: center;
     font-size: 50px;
+   
 
 }
 
@@ -24,6 +25,11 @@ main{
 .text{
     text-align: center;
     padding: 4rem 1rem;
+    font-size: 20px;
+ 
+    font-weight: bold;
+    
+
     
     
 }
@@ -54,6 +60,10 @@ img{
 
 }
 
+.name{
+    font-weight: 700;
+}
+
 .container-box{
     background-color: black;
     width: calc(100% / 3 - 2rem);
@@ -76,6 +86,7 @@ img{
 
 .color-mail{
 color: rgb(107, 200, 236);
+font-weight:bold;
 
 
 }
