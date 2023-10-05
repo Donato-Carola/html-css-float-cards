@@ -1,0 +1,64 @@
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main{
+    font-family: 'Fredoka', sans-serif;
+    width: 75%;
+    margin: 0 auto;
+    padding: 2rem;
+    
+
+}
+
+div{
+    width: calc(75% / 3);
+}
+
+
+
+.clearfix::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.color-title{
+    color: violet;
+    text-align: center;
+
+}
+
+
+.text{
+    text-align: center;
+    padding: 4rem;
+}
+
+
+
+img{
+    height: 100px;
+    width: 100px;
+
+}
+
+.margin-left{
+    margin-left: 1rem;
+}
+
+.margin-img{
+    margin-left: 4rem;
+}
