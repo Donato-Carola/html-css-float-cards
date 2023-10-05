@@ -46,8 +46,8 @@ main{
 }
  
 img{
-    height: 100px;
-    width: 100px;
+    height: 105px;
+    width: 105px;
     margin-right: 1rem;
 
 }
@@ -57,14 +57,20 @@ img{
     width: 30%;
     margin-left: 2rem;
     margin-bottom: 4rem;
+    height: 105px;
+   
    
 
    
 }
 
 .display-div{
-  
+  vertical-align:middle;
   display: inline-block;
+  height: 180px;
+  
+
+
 
   
   
@@ -73,6 +79,7 @@ img{
 
 .color-mail{
 color: rgb(107, 200, 236);
+
 
 }
 
