@@ -23,7 +23,9 @@ main{
 
 .text{
     text-align: center;
-    padding: 4rem;
+    padding: 4rem 1rem;
+    
+    
 }
 
 
@@ -54,10 +56,11 @@ img{
 
 .container-box{
     background-color: black;
-    width: 30%;
+    width: calc(100% / 3 - 2rem);
     margin-left: 2rem;
     margin-bottom: 4rem;
     height: 105px;
+    
    
    
 
@@ -69,12 +72,6 @@ img{
   display: inline-block;
   height: 180px;
   
-
-
-
-  
-  
-   
 }
 
 .color-mail{
