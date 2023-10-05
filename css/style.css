@@ -5,6 +5,12 @@
     box-sizing: border-box;
 }
 
+.color-title{
+    color: rgb(229, 49, 112);
+    text-align: center;
+    font-size: 50px;
+
+}
 
 main{
     font-family: 'Fredoka', sans-serif;
@@ -15,10 +21,10 @@ main{
 
 }
 
-div{
-    width: calc(75% / 3);
+.text{
+    text-align: center;
+    padding: 4rem;
 }
-
 
 
 .clearfix::after{
@@ -35,30 +41,44 @@ div{
     float: right;
 }
 
-.color-title{
-    color: violet;
-    text-align: center;
-
+.back-color{
+    background-color: black;
 }
-
-
-.text{
-    text-align: center;
-    padding: 4rem;
-}
-
-
-
+ 
 img{
     height: 100px;
     width: 100px;
+    margin-right: 1rem;
 
 }
 
-.margin-left{
-    margin-left: 1rem;
+.container-box{
+    background-color: black;
+    width: 30%;
+    margin-left: 2rem;
+    margin-bottom: 4rem;
+   
+
+   
 }
 
-.margin-img{
-    margin-left: 4rem;
+.display-div{
+  
+  display: inline-block;
+
+  
+  
+   
+}
+
+.color-mail{
+color: rgb(107, 200, 236);
+
+}
+
+
+span{
+    vertical-align: 0.5rem;
+    color: white;
+
 }
